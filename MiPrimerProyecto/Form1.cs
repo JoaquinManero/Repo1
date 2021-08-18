@@ -55,7 +55,7 @@ namespace MiPrimerProyecto
             }
             if (this.txtContraseña.Text == "")
             {
-                MessageBox.Show("Debe ingresar una clave...");
+                MessageBox.Show("Debe ingresar una clave alfanumerica...");
                 this.txtContraseña.Focus();
                 return;
             }
