@@ -22,7 +22,7 @@ namespace MiPrimerProyecto
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.Text = "Logeo";
+            this.Text = "Logeo !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
         }
 
         private void label1_Click(object sender, EventArgs e)
