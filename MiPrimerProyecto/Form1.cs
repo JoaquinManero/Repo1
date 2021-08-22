@@ -12,8 +12,8 @@ namespace MiPrimerProyecto
 {
     public partial class FormLogin : Form
     {
-        string user = "administrador";
-        string pass = "12345";
+        string user = "admin";
+        string pass = "1234";
 
         public FormLogin()
         {
@@ -22,7 +22,7 @@ namespace MiPrimerProyecto
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.Text = "Logeo de usuario!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
+            this.Text = "Logeo";
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -55,7 +55,7 @@ namespace MiPrimerProyecto
             }
             if (this.txtContraseña.Text == "")
             {
-                MessageBox.Show("Debe ingresar una clave alfanumerica...");
+                MessageBox.Show("Debe ingresar una clave...");
                 this.txtContraseña.Focus();
                 return;
             }
